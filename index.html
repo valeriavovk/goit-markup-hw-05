@@ -536,6 +536,27 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form" name="subscribe-form">
+          <!-- сумнівний дів -->
+          <div class="footer-form-field">
+            <label class="footer-form-label" for="subscribe-email"
+              >Subscribe</label
+            >
+            <input
+              class="footer-form-input"
+              type="email"
+              id="subscribe-email"
+              name="subscribe-email"
+              placeholder="E-mail"
+            />
+          </div>
+          <button class="footer-form-btn" type="submit">
+            Subscribe
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/icons.svg#telegram"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
 
@@ -609,7 +630,23 @@
             ></textarea>
           </div>
 
-          <button class="modal-form-btn" type="submit">Send</button>
+          <div class="modal-checkbox">
+            <input
+              class="modal-checkbox-input"
+              type="checkbox"
+              name="privacy-policy"
+              value="agreed"
+              id="privacy-policy"
+            />
+            <label class="modal-privacy-policy-label" for="privacy-policy"
+              >I accept the terms and conditions of the
+              <span class="modal-checkbox-policy-link">
+                Privacy Policy</span
+              ></label
+            >
+          </div>
+
+          <button class="modal-form-btn hero-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
